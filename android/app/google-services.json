@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "221650245285",
+    "project_id": "testsnslogin-97359",
+    "storage_bucket": "testsnslogin-97359.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:221650245285:android:18278cab598fc0cfd41f4c",
+        "android_client_info": {
+          "package_name": "com.ohmnia.snslogin.sample_sns_login"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "221650245285-07n04irjospmee68u49pikvof6022epb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ohmnia.snslogin.sample_sns_login",
+            "certificate_hash": "ed6fcab6dbd25cf7fa1b15490e76ac5b7af25315"
+          }
+        },
+        {
+          "client_id": "221650245285-lgiqp7v47leodepidisaofpgiji3tlp5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCd_FV_RU6akKodMEv4ihzRLUcAr0BDzh8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "221650245285-lgiqp7v47leodepidisaofpgiji3tlp5.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "221650245285-jp8gsmki2c7rppr324pgrf4k80d5hfhu.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ohmnia.snslogin.sample-sns-login"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
