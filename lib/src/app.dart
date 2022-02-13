@@ -7,17 +7,18 @@ class App extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return FutureBuilder(
-      future: Firebase.initializeApp(),
-      builder: (context, snapshot) {
-        if (snapshot.hasError) {
-          return const Center(child: Text("error"));
-        }
-        if (snapshot.connectionState == ConnectionState.done) {
-          return const Home();
-        }
-        return const CircularProgressIndicator();
-        return Container();
-      });
+    return Home();
+    // return FutureBuilder(
+    //   future: Firebase.initializeApp(),
+    //   builder: (context, snapshot) {
+    //     if (snapshot.hasError) {
+    //       return const Center(child: Text("error"));
+    //     }
+    //     if (snapshot.connectionState == ConnectionState.done) {
+    //       return const Home();
+    //     }
+    //     return const CircularProgressIndicator();
+    //     return Container();
+    //   });
   }
 }
